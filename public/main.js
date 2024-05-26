@@ -5,7 +5,7 @@ const roomInput=document.getElementById('room-input')
 const messageInput=document.getElementById('message-input')
 
 const form=document.getElementById('form')
-const socket=io('http://localhost:3000');
+const socket=io('https://socket-io-ashy.vercel.app/');
 socket.on('connect',()=>{
   displayMessage("you connected with id"+socket.id)
 })

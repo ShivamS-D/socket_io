@@ -1,5 +1,6 @@
+const { io } = require("socket.io-client")
+
 // import {io} from 'socket.io-client'
-const {io}=require('socket.io-client')
 // const io=require('socket.io-client')
 const joinRoomButton=document.getElementById('room-button')
 const roomInput=document.getElementById('room-input')
